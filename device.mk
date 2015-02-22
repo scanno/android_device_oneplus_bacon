@@ -18,19 +18,19 @@
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay vendor/extra/overlays/phone-1080p
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+#TARGET_SCREEN_HEIGHT := 1920
+#TARGET_SCREEN_WIDTH := 1080
 
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    libinit_bacon \
-    fstab.bacon \
-    init.bacon.rc \
+    libinit_find7op \
+    fstab.find7op \
+    init.find7op.rc \
     init.qcom.usb.rc \
-    ueventd.bacon.rc
+    ueventd.find7op.rc
 
 # Audio
 PRODUCT_COPY_FILES += \
