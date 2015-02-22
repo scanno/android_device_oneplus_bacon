@@ -5,6 +5,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := system/core/init
 LOCAL_CFLAGS := -Wall
-LOCAL_SRC_FILES := init_bacon.c
-LOCAL_MODULE := libinit_bacon
+LOCAL_SRC_FILES := init_find7op.c
+LOCAL_MODULE := libinit_find7op
 include $(BUILD_STATIC_LIBRARY)
